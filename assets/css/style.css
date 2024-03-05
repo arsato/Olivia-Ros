@@ -1,0 +1,22 @@
+/* .hero img{
+    max-height: 630px;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.hero-section {
+    background-image: url("../img/bg-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    height: 630px;
+}
+
+.hero-content{
+    
+}
