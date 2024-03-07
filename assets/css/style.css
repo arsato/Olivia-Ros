@@ -1,8 +1,10 @@
-/* .hero img{
-    max-height: 630px;
-    width: 100%;
-    object-fit: cover;
-} */
+:root{
+    --regular: 400;
+    --bold: 700;
+    --teal: #17A2B8;
+    --black: #0F0F0F;
+
+}
 
 .hero-section {
     background-image: url("../img/bg-hero.jpg");
@@ -17,6 +19,40 @@
     height: 630px;
 }
 
-.hero-content{
-    
+.hero-title{
+   font-size: 70px;
+   font-weight: var(--bold);
+}
+
+.about-section h2{
+    font-size: 50px;
+    color: var(--black);
+}
+
+.work-section{
+    background-color: var(--teal);
+}
+
+.work-section h2{
+    font-size: 50px;
+    color: #fff;
+}
+
+.card-body{
+    min-height: 277px;
+}
+
+.card img{
+    object-fit: cover;
+    max-height: 260px;
+    overflow: hidden;
+}
+
+.form-label{
+    font-weight: var(--bold);
+}
+
+footer{
+    background-color: var(--black);
+    color: #fff;
 }
